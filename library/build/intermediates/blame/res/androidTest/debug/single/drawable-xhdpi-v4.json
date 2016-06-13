@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "C:\\Users\\PC-8\\git\\xiaoge-app\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\default_ptr_flip.png",
+        "source": "C:\\Users\\PC-8\\git\\xiaoge-app\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\default_ptr_flip.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\git\\xiaoge-app\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\default_ptr_flip.png",
+        "source": "C:\\Users\\Administrator\\git\\xiaoge-app\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\default_ptr_flip.png"
+    },
+    {
+        "merged": "C:\\Users\\PC-8\\git\\saleview-app\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\default_ptr_flip.png",
+        "source": "C:\\Users\\PC-8\\git\\saleview-app\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\default_ptr_flip.png"
+    },
+    {
+        "merged": "C:\\Users\\PC-8\\git\\saleview-app\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\default_ptr_rotate.png",
+        "source": "C:\\Users\\PC-8\\git\\saleview-app\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\git\\xiaoge-app\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\indicator_arrow.png",
+        "source": "C:\\Users\\Administrator\\git\\xiaoge-app\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\indicator_arrow.png"
+    },
+    {
+        "merged": "C:\\Users\\PC-8\\git\\xiaoge-app\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\default_ptr_rotate.png",
+        "source": "C:\\Users\\PC-8\\git\\xiaoge-app\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "C:\\Users\\PC-8\\git\\saleview-app\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\indicator_arrow.png",
+        "source": "C:\\Users\\PC-8\\git\\saleview-app\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\indicator_arrow.png"
+    },
+    {
+        "merged": "C:\\Users\\PC-8\\git\\xiaoge-app\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\indicator_arrow.png",
+        "source": "C:\\Users\\PC-8\\git\\xiaoge-app\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\indicator_arrow.png"
+    },
+    {
+        "merged": "C:\\Users\\PC-8\\as\\saleview-app\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\default_ptr_rotate.png",
+        "source": "C:\\Users\\PC-8\\as\\saleview-app\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "C:\\Users\\PC-8\\as\\saleview-app\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\default_ptr_flip.png",
+        "source": "C:\\Users\\PC-8\\as\\saleview-app\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\default_ptr_flip.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\git\\xiaoge-app\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\default_ptr_rotate.png",
+        "source": "C:\\Users\\Administrator\\git\\xiaoge-app\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "C:\\Users\\PC-8\\as\\saleview-app\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\indicator_arrow.png",
+        "source": "C:\\Users\\PC-8\\as\\saleview-app\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\indicator_arrow.png"
+    }
+]

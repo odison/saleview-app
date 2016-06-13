@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/nav_menu_userinfo"
+        android:icon="@drawable/ic_user_white_24dp"
+        android:title="@string/nav_name_user_info" />
+    <item
+        android:id="@+id/nav_menu_account"
+        android:icon="@drawable/ic_account_white_24dp"
+        android:title="@string/nav_name_account_info" />
+
+    <item
+        android:id="@+id/nav_menu_getorder"
+        android:icon="@drawable/ic_remote_order_list"
+
+        android:title="@string/nav_name_get_order" />
+    <item
+        android:id="@+id/nav_menu_embrace_order"
+        android:icon="@drawable/ic_my_order_embrace_sort_white_24dp"
+
+        android:title="@string/nav_name_embrace_order" />
+
+    <item
+        android:id="@+id/nav_menu_order"
+        android:icon="@drawable/ic_my_order_white_24dp"
+
+        android:title="@string/nav_name_order" />
+    <item
+        android:id="@+id/nav_menu_his_order"
+        android:icon="@drawable/ic_his_order_white_24dp"
+        android:title="@string/nav_name_his_order" />
+    <item
+        android:id="@+id/nav_menu_score"
+        android:icon="@drawable/ic_star_white_24dp"
+        android:title="@string/nav_name_score" />
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_menu_setting"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/nav_name_setting" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,83 @@
+apply plugin: 'com.android.application'
+def releaseTime() {
+    return new Date().format("yyyy-MM-dd", TimeZone.getTimeZone("UTC"))
+}
+
+android {
+    signingConfigs {
+        debug {
+            keyAlias 'xiaoge-app'
+            keyPassword 'android'
+            storeFile file('xiaoge-app.jks')
+            storePassword 'android'
+        }
+    }
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+    defaultConfig {
+        applicationId "com.odison.saleview"
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    productFlavors{
+        develop{}
+        xiaomi{}
+        huawei{}
+        anzhi{}
+    }
+
+    android.applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            def outputFile = output.outputFile
+            if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                //这里修改apk文件名
+                def fileName = "demo_${variant.productFlavors[0].name}-${defaultConfig.versionCode}-${defaultConfig.versionName}-${releaseTime() }.apk"
+                output.outputFile = new File(outputFile.parent, fileName)
+            }
+        }
+    }
+}
+repositories {
+    mavenCentral()
+}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile files('libs/TencentLocationSDK_v4.1.1_r175129.jar')
+    compile files('libs/TencentMapSDK_Raster_v1.1.2.16281.jar')
+    compile files('libs/fastjson-1.2.7.jar')
+    compile files('libs/Msc.jar')
+    compile files('libs/TencentSearch1.1.2.16095.jar')
+    compile files('libs/baidumapapi_base_v3_6_1.jar')
+    compile files('libs/baidumapapi_cloud_v3_6_1.jar')
+    compile files('libs/baidumapapi_map_v3_6_1.jar')
+    compile files('libs/baidumapapi_radar_v3_6_1.jar')
+    compile files('libs/baidumapapi_search_v3_6_1.jar')
+    compile files('libs/baidumapapi_util_v3_6_1.jar')
+    compile files('libs/locSDK_6.13.jar')
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:design:23.1.1'
+    compile 'com.jakewharton:butterknife:6.1.0'
+    compile 'com.android.support:support-v4:23.1.1'
+    compile 'com.loopj.android:android-async-http:1.4.9'
+    compile 'com.orhanobut:dialogplus:1.10@aar'
+    compile 'com.github.johnpersano:supertoasts:1.3.4@aar'
+    compile 'cn.trinea.android.common:trinea-android-common:4.2.15'
+    compile 'com.android.support:recyclerview-v7:23.1.1'
+    compile 'org.apache.httpcomponents:httpcore:4.4.2'
+    compile project(':library')
+    compile 'com.nhaarman.listviewanimations:lib-core:3.1.0@aar'
+    compile 'com.nhaarman.listviewanimations:lib-manipulation:3.1.0@aar'
+    compile 'com.nhaarman.listviewanimations:lib-core-slh:3.1.0@aar'
+    compile 'asia.ivity.android:drag-sort-listview:1.0'
+
+}

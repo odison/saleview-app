@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txv_item_main_county"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/space_4"
+            android:paddingTop="@dimen/space_4"
+            android:textSize="@dimen/text_size_sp_18"
+            android:textColor="#BA55D3"
+            android:text="区域："/>
+        <TextView
+            android:id="@+id/txv_item_main_suborder_count"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:text="10 个子订单"
+            android:textAlignment="gravity"
+            android:paddingRight="@dimen/space_4"
+            android:textSize="@dimen/text_size_sp_14"
+            android:textColor="@color/red"
+            android:gravity="bottom|right" />
+    </LinearLayout>
+    <TextView
+        android:paddingLeft="@dimen/space_4"
+        android:paddingRight="@dimen/space_4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_1"
+        android:background="@color/black_overlay"/>
+    <TextView
+        android:id="@+id/txv_item_main_location_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_sp_14"
+        android:paddingLeft="@dimen/space_4"
+        android:paddingTop="@dimen/space_4"
+        android:layout_marginTop="@dimen/space_1"
+        android:textColor="@color/black_overlay"
+        android:text="取货地址："/>
+
+    <TextView
+        android:id="@+id/txv_item_main_reword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/space_4"
+        android:paddingTop="@dimen/space_4"
+        android:layout_marginTop="@dimen/space_1"
+        android:textColor="@color/green"
+        android:textSize="@dimen/text_size_sp_18"
+        android:text="跑腿费：10 元"/>
+</LinearLayout>

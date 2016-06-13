@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\PC-8\\git\\saleview-app\\app\\build\\intermediates\\res\\merged\\xiaomi\\debug\\menu\\activity_my_order.xml",
+        "source": "C:\\Users\\PC-8\\git\\saleview-app\\app\\src\\main\\res\\menu\\activity_my_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC-8\\git\\saleview-app\\app\\build\\intermediates\\res\\merged\\xiaomi\\debug\\menu\\activity_account_detail.xml",
+        "source": "C:\\Users\\PC-8\\git\\saleview-app\\app\\src\\main\\res\\menu\\activity_account_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC-8\\git\\saleview-app\\app\\build\\intermediates\\res\\merged\\xiaomi\\debug\\menu\\only_back_item.xml",
+        "source": "C:\\Users\\PC-8\\git\\saleview-app\\app\\src\\main\\res\\menu\\only_back_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC-8\\git\\saleview-app\\app\\build\\intermediates\\res\\merged\\xiaomi\\debug\\menu\\activity_order_detail.xml",
+        "source": "C:\\Users\\PC-8\\git\\saleview-app\\app\\src\\main\\res\\menu\\activity_order_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC-8\\git\\saleview-app\\app\\build\\intermediates\\res\\merged\\xiaomi\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\PC-8\\git\\saleview-app\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC-8\\git\\saleview-app\\app\\build\\intermediates\\res\\merged\\xiaomi\\debug\\menu\\activity_userinfo.xml",
+        "source": "C:\\Users\\PC-8\\git\\saleview-app\\app\\src\\main\\res\\menu\\activity_userinfo.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC-8\\git\\saleview-app\\app\\build\\intermediates\\res\\merged\\xiaomi\\debug\\menu\\activity_main_drawer.xml",
+        "source": "C:\\Users\\PC-8\\git\\saleview-app\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    }
+]

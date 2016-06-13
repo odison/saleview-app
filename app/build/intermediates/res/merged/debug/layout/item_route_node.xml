@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/space_1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_8"
+        android:layout_marginTop="@dimen/space_8"
+
+        android:id="@+id/txv_item_route_node_title"
+        android:text="路径描述"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/text_size_sp_18"/>
+    <TextView
+        android:layout_marginTop="@dimen/space_8"
+        android:layout_marginLeft="@dimen/space_8"
+        android:layout_marginRight="@dimen/space_8"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_1"
+        android:background="@color/black_overlay"/>
+</LinearLayout>

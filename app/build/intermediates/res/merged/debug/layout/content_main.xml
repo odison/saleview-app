@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/map_margin"
+    android:paddingLeft="@dimen/map_margin"
+    android:paddingRight="@dimen/map_margin"
+    android:paddingTop="@dimen/map_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <com.baidu.mapapi.map.MapView
+            android:id="@+id/mapview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    <LinearLayout
+        android:id="@+id/layout_main_order_info"
+        android:orientation="vertical"
+        android:background="@color/whiteEf"
+        android:layout_marginTop="@dimen/space_16"
+        android:layout_marginLeft="@dimen/space_16"
+        android:layout_marginRight="@dimen/space_15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_8"
+            android:layout_marginLeft="@dimen/space_12"
+            android:layout_marginRight="@dimen/space_12"
+            android:layout_marginBottom="@dimen/space_8"
+            android:id="@+id/txv_main_activity_order_address"
+            android:textSize="@dimen/text_size_sp_12"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="当前配送地址：台州市椒江中山西路292号"/>
+
+    </LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/ib_main_quick_option_map_switch"
+        android:layout_marginTop="@dimen/space_18"
+        android:layout_marginRight="@dimen/space_16"
+        android:clickable="true"
+        android:background="@drawable/quick_background_90"
+        android:layout_alignRight="@+id/mapview"
+        android:layout_alignEnd="@+id/mapview"
+        android:contentDescription="@null"
+
+        android:layout_below="@+id/layout_main_order_info"
+
+        android:src="@drawable/v1_switch_1"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/ib_main_quick_option_loc_switch"
+        android:layout_marginTop="@dimen/space_18"
+        android:layout_marginRight="@dimen/space_16"
+        android:clickable="true"
+        android:background="@drawable/quick_background_90"
+        android:layout_alignRight="@+id/mapview"
+        android:layout_alignEnd="@+id/mapview"
+        android:contentDescription="@null"
+        android:layout_below="@+id/ib_main_quick_option_map_switch"
+
+        android:src="@drawable/location_0"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageButton
+        android:id="@+id/ib_main_quick_option_zoomin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@null"
+        android:src="@drawable/map_zoom_in"
+        android:layout_marginTop="@dimen/space_60"
+        android:layout_marginRight="@dimen/space_16"
+        android:clickable="true"
+        android:background="@drawable/quick_background_90"
+
+        android:layout_below="@+id/ib_main_quick_option_loc_switch"
+        android:layout_alignRight="@+id/mapview"
+        android:layout_alignEnd="@+id/mapview"
+        android:visibility="visible" />
+    <ImageButton
+        android:id="@+id/ib_main_quick_option_zoomout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/space_16"
+        android:background="@drawable/quick_background_90"
+
+        android:clickable="true"
+        android:contentDescription="@null"
+        android:src="@drawable/map_zoom_out"
+        android:layout_below="@+id/ib_main_quick_option_zoomin"
+        android:layout_alignRight="@+id/mapview"
+        android:layout_alignEnd="@+id/mapview"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/ib_main_quick_option_embrace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_30"
+        android:layout_marginRight="@dimen/space_16"
+        android:background="@drawable/quick_background_90"
+
+        android:clickable="true"
+        android:contentDescription="@null"
+        android:src="@drawable/icon_embrace"
+        android:layout_below="@+id/ib_main_quick_option_zoomout"
+        android:layout_alignRight="@+id/mapview"
+        android:layout_alignEnd="@+id/mapview"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/ib_main_quick_option_go"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_30"
+        android:layout_marginRight="@dimen/space_16"
+        android:background="@drawable/quick_background_90"
+
+        android:clickable="true"
+        android:contentDescription="@null"
+        android:src="@drawable/icon_dispatch"
+        android:layout_below="@+id/ib_main_quick_option_embrace"
+        android:layout_alignRight="@+id/mapview"
+        android:layout_alignEnd="@+id/mapview"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/ib_main_quick_option_pre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_16"
+        android:layout_marginLeft="@dimen/space_16"
+        android:background="@drawable/quick_background_90"
+
+        android:clickable="true"
+        android:contentDescription="@null"
+        android:src="@drawable/icon_pre_order"
+        android:layout_alignLeft="@+id/mapview"
+        android:layout_alignBottom="@+id/mapview"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/ib_main_quick_option_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_16"
+        android:layout_marginRight="@dimen/space_16"
+        android:background="@drawable/quick_background_90"
+
+        android:clickable="true"
+        android:contentDescription="@null"
+        android:src="@drawable/icon_next_order"
+        android:layout_alignRight="@+id/mapview"
+        android:layout_alignBottom="@+id/mapview"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/ib_main_quick_option_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/space_30"
+        android:layout_marginBottom="@dimen/space_16"
+        android:background="@drawable/quick_background_90"
+
+        android:clickable="true"
+        android:contentDescription="@null"
+        android:src="@drawable/icon_phone"
+        android:layout_toLeftOf="@+id/ib_main_quick_option_next"
+        android:layout_alignBottom="@+id/mapview"
+        android:visibility="gone" />
+    <ImageButton
+        android:id="@+id/ib_main_quick_option_route_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/space_30"
+        android:layout_marginBottom="@dimen/space_16"
+        android:background="@drawable/quick_background_90"
+
+        android:clickable="true"
+        android:contentDescription="@null"
+        android:src="@drawable/icon_route"
+        android:layout_toLeftOf="@+id/ib_main_quick_option_next"
+        android:layout_alignBottom="@+id/mapview"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/ib_main_quick_option_list_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_30"
+        android:layout_marginBottom="@dimen/space_16"
+        android:background="@drawable/quick_background_90"
+
+        android:clickable="true"
+        android:contentDescription="@null"
+        android:src="@drawable/icon_list_order"
+        android:layout_toRightOf="@+id/ib_main_quick_option_pre"
+        android:layout_alignBottom="@+id/mapview"
+        android:visibility="visible" />
+
+
+
+
+</RelativeLayout>

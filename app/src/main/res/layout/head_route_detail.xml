@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/header_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/space_1">
+
+    <TextView
+        android:layout_marginLeft="@dimen/space_8"
+        android:layout_marginTop="@dimen/space_8"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="当前线路详情"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_size_20"/>
+    <TextView
+        android:layout_marginLeft="@dimen/space_1"
+        android:layout_marginRight="@dimen/space_1"
+        android:layout_marginTop="@dimen/space_8"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_1"
+        android:background="@color/black_overlay"/>
+</LinearLayout>

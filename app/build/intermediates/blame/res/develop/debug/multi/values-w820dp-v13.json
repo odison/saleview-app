@@ -1,0 +1,368 @@
+[
+    {
+        "outputFile": "C:\\Users\\PC-8\\git\\saleview-app\\app\\build\\intermediates\\res\\merged\\develop\\debug\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 64,
+                    "endOffset": 115
+                },
+                "from": {
+                    "file": "C:\\Users\\PC-8\\git\\saleview-app\\app\\src\\main\\res\\values-w820dp\\theme_attrs.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 532,
+                        "endColumn": 64,
+                        "endOffset": 592
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 120,
+                    "endColumn": 50,
+                    "endOffset": 166
+                },
+                "from": {
+                    "file": "C:\\Users\\PC-8\\git\\saleview-app\\app\\src\\main\\res\\values-w820dp\\theme_attrs.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 424,
+                        "endColumn": 50,
+                        "endOffset": 470
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 171,
+                    "endColumn": 54,
+                    "endOffset": 221
+                },
+                "from": {
+                    "file": "C:\\Users\\PC-8\\git\\saleview-app\\app\\src\\main\\res\\values-w820dp\\theme_attrs.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 476,
+                        "endColumn": 54,
+                        "endOffset": 526
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 226,
+                    "endColumn": 51,
+                    "endOffset": 273
+                },
+                "from": {
+                    "file": "C:\\Users\\PC-8\\git\\saleview-app\\app\\src\\main\\res\\values-w820dp\\theme_attrs.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 106,
+                        "endColumn": 51,
+                        "endOffset": 153
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 278,
+                    "endColumn": 54,
+                    "endOffset": 328
+                },
+                "from": {
+                    "file": "C:\\Users\\PC-8\\git\\saleview-app\\app\\src\\main\\res\\values-w820dp\\theme_attrs.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 159,
+                        "endColumn": 54,
+                        "endOffset": 209
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 333,
+                    "endColumn": 52,
+                    "endOffset": 381
+                },
+                "from": {
+                    "file": "C:\\Users\\PC-8\\git\\saleview-app\\app\\src\\main\\res\\values-w820dp\\theme_attrs.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 370,
+                        "endColumn": 52,
+                        "endOffset": 418
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 386,
+                    "endColumn": 47,
+                    "endOffset": 429
+                },
+                "from": {
+                    "file": "C:\\Users\\PC-8\\git\\saleview-app\\app\\src\\main\\res\\values-w820dp\\theme_attrs.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 215,
+                        "endColumn": 47,
+                        "endOffset": 258
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 434,
+                    "endColumn": 53,
+                    "endOffset": 483
+                },
+                "from": {
+                    "file": "C:\\Users\\PC-8\\git\\saleview-app\\app\\src\\main\\res\\values-w820dp\\theme_attrs.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 598,
+                        "endColumn": 53,
+                        "endOffset": 647
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 488,
+                    "endColumn": 54,
+                    "endOffset": 538
+                },
+                "from": {
+                    "file": "C:\\Users\\PC-8\\git\\saleview-app\\app\\src\\main\\res\\values-w820dp\\theme_attrs.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 653,
+                        "endColumn": 54,
+                        "endOffset": 703
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 543,
+                    "endColumn": 69,
+                    "endOffset": 608
+                },
+                "from": {
+                    "file": "C:\\Users\\PC-8\\git\\saleview-app\\app\\src\\main\\res\\values-w820dp\\theme_attrs.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 779,
+                        "endColumn": 69,
+                        "endOffset": 844
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 613,
+                    "endColumn": 68,
+                    "endOffset": 677
+                },
+                "from": {
+                    "file": "C:\\Users\\PC-8\\git\\saleview-app\\app\\src\\main\\res\\values-w820dp\\theme_attrs.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1062,
+                        "endColumn": 68,
+                        "endOffset": 1126
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 682,
+                    "endColumn": 69,
+                    "endOffset": 747
+                },
+                "from": {
+                    "file": "C:\\Users\\PC-8\\git\\saleview-app\\app\\src\\main\\res\\values-w820dp\\theme_attrs.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 850,
+                        "endColumn": 69,
+                        "endOffset": 915
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 752,
+                    "endColumn": 68,
+                    "endOffset": 816
+                },
+                "from": {
+                    "file": "C:\\Users\\PC-8\\git\\saleview-app\\app\\src\\main\\res\\values-w820dp\\theme_attrs.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 992,
+                        "endColumn": 68,
+                        "endOffset": 1056
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 821,
+                    "endColumn": 68,
+                    "endOffset": 885
+                },
+                "from": {
+                    "file": "C:\\Users\\PC-8\\git\\saleview-app\\app\\src\\main\\res\\values-w820dp\\theme_attrs.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 709,
+                        "endColumn": 68,
+                        "endOffset": 773
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 890,
+                    "endColumn": 69,
+                    "endOffset": 955
+                },
+                "from": {
+                    "file": "C:\\Users\\PC-8\\git\\saleview-app\\app\\src\\main\\res\\values-w820dp\\theme_attrs.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 921,
+                        "endColumn": 69,
+                        "endOffset": 986
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 960,
+                    "endColumn": 54,
+                    "endOffset": 1010
+                },
+                "from": {
+                    "file": "C:\\Users\\PC-8\\git\\saleview-app\\app\\src\\main\\res\\values-w820dp\\theme_attrs.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 314,
+                        "endColumn": 54,
+                        "endOffset": 364
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1015,
+                    "endColumn": 47,
+                    "endOffset": 1058
+                },
+                "from": {
+                    "file": "C:\\Users\\PC-8\\git\\saleview-app\\app\\src\\main\\res\\values-w820dp\\theme_attrs.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 47,
+                        "endOffset": 100
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1063,
+                    "endColumn": 48,
+                    "endOffset": 1107
+                },
+                "from": {
+                    "file": "C:\\Users\\PC-8\\git\\saleview-app\\app\\src\\main\\res\\values-w820dp\\theme_attrs.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 264,
+                        "endColumn": 48,
+                        "endOffset": 308
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1112,
+                    "endColumn": 57,
+                    "endOffset": 1165
+                },
+                "from": {
+                    "file": "C:\\Users\\PC-8\\git\\saleview-app\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 295,
+                        "endColumn": 57,
+                        "endOffset": 348
+                    }
+                }
+            }
+        ]
+    }
+]

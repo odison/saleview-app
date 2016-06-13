@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/space_4"
+    android:paddingLeft="@dimen/space_4"
+    android:paddingRight="@dimen/space_4"
+    android:paddingTop="@dimen/space_4"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.odison.saleview.ui.AccountDetailActivity"
+    tools:showIn="@layout/activity_account_detail">
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/ptflv_account_detail"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        ptr:ptrDrawable="@drawable/default_ptr_flip"
+        ptr:ptrAnimationStyle="flip"
+        ptr:ptrHeaderBackground="#383838"
+        ptr:ptrHeaderTextColor="#FFFFFF" />
+
+</RelativeLayout>
